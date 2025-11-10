@@ -1,0 +1,61 @@
+.gform_wrapper {
+    padding: 50px 50px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    background: $dkblue !important;
+    &#gform_wrapper_2 {
+        background: $blue !important;
+    }
+    @include respond(tab-port) {
+        padding:30px 30px 20px;
+    }
+
+    .gfield {
+        input {
+            padding:12px !important;
+        }
+    }
+
+    label {
+        color:$white;
+        text-transform: none !important;
+        font-size: 14px !important;
+        font-weight: normal;
+    }
+
+    .gfield_required {
+        color: $white !important;
+    }
+
+    p.gform_required_legend {
+        color:$white;
+        font-size: 12px;
+        display: none !important;
+    }
+
+    input[type="submit"] {
+        font-weight: bold !important;
+        padding: 15px 20px;
+        display: block;
+        width: 100%;
+        white-space: break-spaces;
+        line-height: 130% !important;
+        margin: 0;
+        height: 50px;
+        background: $green;
+        color: $dkblue;
+        text-transform: uppercase !important;
+        font-family: $fira !important;
+        letter-spacing: 0.27px !important;
+        font-size: 16px;
+        border: solid 1px $green;
+        cursor: pointer;
+        transition: $trans;
+        &:hover {
+            background: $blue !important;
+            color: $white !important;
+            border-color: $blue !important;
+        }
+    }
+}
