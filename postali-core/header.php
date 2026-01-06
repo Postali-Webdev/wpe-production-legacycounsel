@@ -68,6 +68,10 @@ endif; ?>
 					<img width="610" height="220" src="/wp-content/uploads/2024/03/Legacy-Counsel-Full-Color-Logo-Email-White.png" class="custom-logo" alt="Legacy Counsel PLC" decoding="async" fetchpriority="high">
 				</a>
 			</div>
+
+            <div class="client-portal">
+                <a href="https://app.decisionvault.com/login/legacycounselplc" target="blank">Client Portal <img src="/wp-content/uploads/2026/01/client_2.svg" alt="client portal"></a>
+            </div>
 			
 			<div id="header-top_right">
 				<div id="header-top_right_menu">

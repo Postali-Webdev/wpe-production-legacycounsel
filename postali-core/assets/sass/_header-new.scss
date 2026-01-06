@@ -42,5 +42,41 @@ header {
                 width: 100%;
             }
         }
+
+        .client-portal {
+            position: absolute;
+            right: 35px;
+            top: 0;
+            padding: 6px 10px 6px;
+            background: $white;
+            border-radius: 0 0 6px 6px;
+
+            @include respond(tab-land) {
+                display:none;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                text-transform: uppercase;
+                display: flex;
+                flex-wrap: nowrap;
+                white-space: nowrap;
+
+                img {
+                    max-height: 11px;
+                    width: 9px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    .mobile-only {
+        display:none !important;
+
+        @include respond(tab-land) {
+            display:block !important;
+        }
     }
 }
